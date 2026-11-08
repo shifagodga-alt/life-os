@@ -1,0 +1,7 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html,body,#root{height:100%}
+body{background:#0a0a0b;color:#e8e8ec;font-family:Inter,system-ui,-apple-system,sans-serif;-webkit-tap-highlight-color:transparent;overscroll-behavior:none}
+.btn{@apply min-h-[52px] rounded-2xl px-5 font-medium active:scale-[.98] transition}
+.input{@apply w-full rounded-2xl bg-card border border-line p-4 text-[16px] outline-none focus:border-accent}
+input[type=range]{@apply w-full accent-[#8b9cf7] h-8}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
